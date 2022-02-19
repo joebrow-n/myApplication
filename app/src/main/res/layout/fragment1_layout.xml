@@ -8,37 +8,45 @@
     android:orientation="vertical">
 
     <Button
-        android:id="@+id/button4"
-        android:layout_width="205dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="193dp"
-        android:layout_marginBottom="135dp"
-        android:text="Daily doomstop"
-        app:layout_constraintBottom_toTopOf="@+id/button6"
+        android:id="@+id/button"
+        android:layout_width="208dp"
+        android:layout_height="55dp"
+        android:text="Solo Doomstop"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="205dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="225dp"
+        android:id="@+id/button3"
+        android:layout_width="208dp"
+        android:layout_height="55dp"
+        android:text="long doomstop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="208dp"
+        android:layout_height="55dp"
         android:text="social doomstop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="205dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="149dp"
-        android:text="long doomstop"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="272dp"
+        android:layout_height="58dp"
+        android:text="Finished with Doom Scrolling?\n Check your doomstops:"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
-
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
