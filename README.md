@@ -1,2 +1,2 @@
 # myApplication
-Software Design 
+Software Design Analysis Application - DoomStopper
