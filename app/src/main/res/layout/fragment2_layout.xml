@@ -27,7 +27,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
-                android:text="   Sean DoomStopped Today:" />
+                android:textSize="16sp"
+                android:text="   Joe DoomStopped Today:" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -40,6 +41,7 @@
                 android:layout_width="393dp"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
+                android:textSize="16sp"
                 android:text="\n   Evie DoomStopped Today" />
 
             <ImageView
@@ -53,6 +55,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
+                android:textSize="16sp"
                 android:text="\n   Emily DoomStopped Today:" />
 
             <ImageView
