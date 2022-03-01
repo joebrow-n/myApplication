@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "664799229685",
+    "project_id": "doomstopper-dabb2",
+    "storage_bucket": "doomstopper-dabb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664799229685:android:65da2a69eb99463fd3f7bc",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664799229685-sldrtt4lcmr14f6r4vl9l0l02pm9uf8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2xT7KW743LixB1FpJafSENWTsq6OQbeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664799229685-sldrtt4lcmr14f6r4vl9l0l02pm9uf8e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
