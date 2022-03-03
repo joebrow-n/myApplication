@@ -7,46 +7,68 @@
     android:gravity="center"
     android:orientation="vertical">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="288dp"
+        android:layout_height="108dp"
+        android:text="Finished with Doom Scrolling?\n Check your doomstops:"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
     <Button
         android:id="@+id/button"
-        android:layout_width="208dp"
-        android:layout_height="55dp"
-        android:text="Solo Doomstop"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        android:layout_width="156dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/custom_button"
+        android:text="Social Doomstop"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="156dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/custom_button"
+        android:text="Solo Doomstop"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="208dp"
-        android:layout_height="55dp"
-        android:text="long doomstop"
+        android:layout_width="156dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/custom_button"
+        android:text="Long Doomstop"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="208dp"
-        android:layout_height="55dp"
-        android:text="social doomstop"
+        android:id="@+id/button4"
+        android:layout_width="156dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/custom_button"
+        android:text="To-doomstop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="272dp"
-        android:layout_height="58dp"
-        android:text="Finished with Doom Scrolling?\n Check your doomstops:"
-        android:textColor="@color/black"
-        android:textAlignment="center"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
