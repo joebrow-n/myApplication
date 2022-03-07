@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:id="@+id/mainLayout"
+    >
 
     <TextView
         android:id="@+id/textView"
@@ -23,7 +25,7 @@
         app:layout_constraintVertical_bias="0.07" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonToSocial"
         android:layout_width="156dp"
         android:layout_height="161dp"
         android:layout_marginTop="240dp"
@@ -34,7 +36,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonToSolo"
         android:layout_width="156dp"
         android:layout_height="161dp"
         android:layout_marginStart="28dp"
@@ -47,7 +49,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonToLong"
         android:layout_width="156dp"
         android:layout_height="161dp"
         android:layout_marginStart="28dp"
@@ -56,11 +58,11 @@
         android:text="Long Doomstop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/buttonToSolo"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/buttonToToDo"
         android:layout_width="156dp"
         android:layout_height="161dp"
         android:layout_marginTop="32dp"
@@ -69,6 +71,6 @@
         android:text="To-doomstop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/buttonToSocial"
         app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

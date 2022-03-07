@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".social_doomstop">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="622dp"
+        android:layout_gravity="bottom"
+        android:layout_margin="10dp"
+        android:background="#BF5E5E"
+        android:backgroundTint="#C35353"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="501dp"
+            android:layout_gravity="bottom"
+            android:text="Social DoomStop:"
+            android:textSize="30dp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/buttonSocialToHome"
+            android:layout_width="356dp"
+            android:layout_height="73dp"
+            android:text="Return Home" />
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
