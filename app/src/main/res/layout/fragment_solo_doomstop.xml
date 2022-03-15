@@ -12,7 +12,7 @@
         android:layout_height="622dp"
         android:layout_gravity="bottom"
         android:layout_margin="10dp"
-        android:background="#BF5E5E"
+        android:background="#000000"
         android:backgroundTint="#C35353"
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="20dp"
@@ -27,13 +27,15 @@
             android:layout_height="501dp"
             android:layout_gravity="bottom"
             android:text="Solo Doomstop:"
-            android:textSize="30dp"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:textSize="30dp" />
 
         <Button
             android:id="@+id/buttonSoloToHome"
             android:layout_width="356dp"
             android:layout_height="73dp"
+            android:background="#F1C14B"
+            android:backgroundTint="#F1C14B"
             android:text="Return Home" />
     </androidx.cardview.widget.CardView>
 
