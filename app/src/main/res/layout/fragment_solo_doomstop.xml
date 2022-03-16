@@ -22,6 +22,13 @@
         app:cardUseCompatPadding="true">
 
         <TextView
+            android:id="@+id/textView13"
+            android:layout_width="353dp"
+            android:layout_height="363dp"
+            android:gravity="center"
+            android:text="TextView" />
+
+        <TextView
             android:id="@+id/textView11"
             android:layout_width="match_parent"
             android:layout_height="501dp"
