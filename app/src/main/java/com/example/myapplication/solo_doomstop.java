@@ -27,9 +27,9 @@ public class solo_doomstop extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.fragment_solo_doomstop, container, false );
+
+        /* ------ The following is used to implement a timer - needs to be refined ------ */
         textView = (TextView) view.findViewById(R.id.textView13);
-        // Time is in millisecond so 50sec = 50000 I have used
-        // countdown Interveal is 1sec = 1000 I have used
         new CountDownTimer(86400000, 1000) {
             public void onTick(long millisUntilFinished) {
                 // Used for formatting digit to be in 2 digits only
@@ -44,6 +44,7 @@ public class solo_doomstop extends Fragment {
                 textView.setText("00:00:00");
             }
         }.start();
+        /* ------ End of timer ------ */
 
         Button btnToOpenSoloContent = (Button) view.findViewById(R.id.buttonSoloToHome);
         btnToOpenSoloContent.setOnClickListener(new View.OnClickListener() {

@@ -25,14 +25,17 @@
             android:id="@+id/textView13"
             android:layout_width="353dp"
             android:layout_height="363dp"
+            android:fontFamily="@font/sen"
             android:gravity="center"
-            android:text="TextView" />
+            android:text="TextView"
+            android:textSize="30dp" />
 
         <TextView
             android:id="@+id/textView11"
             android:layout_width="match_parent"
             android:layout_height="501dp"
             android:layout_gravity="bottom"
+            android:fontFamily="@font/sen_bold"
             android:text="Solo Doomstop:"
             android:textAlignment="center"
             android:textSize="30dp" />
