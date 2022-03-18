@@ -12,7 +12,7 @@
         android:layout_gravity="bottom"
         android:layout_margin="10dp"
         android:background="#BF5E5E"
-        android:backgroundTint="#9E7FC1"
+        android:backgroundTint="#C35353"
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="20dp"
         app:cardElevation="10dp"
@@ -34,9 +34,6 @@
             android:layout_width="356dp"
             android:layout_height="73dp"
             android:text="Return Home" />
-
-
     </androidx.cardview.widget.CardView>
 
 </FrameLayout>
-

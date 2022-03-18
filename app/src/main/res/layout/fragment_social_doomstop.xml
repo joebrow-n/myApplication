@@ -43,6 +43,28 @@
             android:layout_width="356dp"
             android:layout_height="73dp"
             android:text="Return Home" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:src="@android:drawable/ic_popup_sync" />
+        <EditText
+            android:id="@+id/editTextTextMultiLine3"
+            android:layout_width="350dp"
+            android:layout_height="75dp"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:inputType="textMultiLine" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_gravity="top|end"
+            android:src="@android:drawable/btn_star_big_on" />
     </androidx.cardview.widget.CardView>
 
 </FrameLayout>

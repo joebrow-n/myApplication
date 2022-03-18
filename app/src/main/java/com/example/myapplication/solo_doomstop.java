@@ -9,43 +9,17 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import android.os.CountDownTimer;
 import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView;
-
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
 
 public class solo_doomstop extends Fragment {
-    TextView textView;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-
         View view = inflater.inflate(R.layout.fragment_solo_doomstop, container, false );
-
-        /* ------ The following is used to implement a timer - needs to be refined ------ */
-        textView = (TextView) view.findViewById(R.id.textView13);
-        new CountDownTimer(86400000, 1000) {
-            public void onTick(long millisUntilFinished) {
-                // Used for formatting digit to be in 2 digits only
-                NumberFormat f = new DecimalFormat("00");
-                long hour = (millisUntilFinished / 3600000) % 24;
-                long min = (millisUntilFinished / 60000) % 60;
-                long sec = (millisUntilFinished / 1000) % 60;
-                textView.setText(f.format(hour) + ":" + f.format(min) + ":" + f.format(sec));
-            }
-            // When the task is over it will print 00:00:00 there
-            public void onFinish() {
-                textView.setText("00:00:00");
-            }
-        }.start();
-        /* ------ End of timer ------ */
-
         Button btnToOpenSoloContent = (Button) view.findViewById(R.id.buttonSoloToHome);
         btnToOpenSoloContent.setOnClickListener(new View.OnClickListener() {
             @Override

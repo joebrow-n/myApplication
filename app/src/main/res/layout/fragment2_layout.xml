@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:background="@drawable/feed"
     android:orientation="vertical">
 
     <ScrollView
-        android:layout_width="413dp"
-        android:layout_height="631dp"
+        android:layout_width="398dp"
+        android:layout_height="410dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -22,14 +23,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textSize="16sp"
-                android:text="   Joe DoomStopped Today:" />
-
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="match_parent"
@@ -37,12 +30,20 @@
                 app:srcCompat="@drawable/_568" />
 
             <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Joe DoomStopped Today:"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
                 android:id="@+id/textView6"
                 android:layout_width="393dp"
                 android:layout_height="wrap_content"
+                android:text="\n   Evie DoomStopped Today"
                 android:textColor="@color/black"
-                android:textSize="16sp"
-                android:text="\n   Evie DoomStopped Today" />
+                android:textSize="16sp" />
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -54,9 +55,9 @@
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="\n   Emily DoomStopped Today:"
                 android:textColor="@color/black"
-                android:textSize="16sp"
-                android:text="\n   Emily DoomStopped Today:" />
+                android:textSize="16sp" />
 
             <ImageView
                 android:id="@+id/imageView7"

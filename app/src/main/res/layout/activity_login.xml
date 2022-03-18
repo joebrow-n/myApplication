@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/loginlogin"
     tools:context=".login">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -22,20 +23,21 @@
             android:text="DoomStopper"
             android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
 
-        <com.google.android.material.tabs.TabLayout
-            android:id="@+id/tabs"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+<!--        <com.google.android.material.tabs.TabLayout-->
+<!--            android:id="@+id/tabs"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content" />-->
     </com.google.android.material.appbar.AppBarLayout>
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="139dp"
-        android:layout_height="50dp"
+        android:layout_width="168dp"
+        android:layout_height="72dp"
         android:text="Login"
         android:textAlignment="center"
-        android:textColor="#B60C0C"
-        android:textSize="34sp"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,6 +51,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Username"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -63,6 +66,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Password"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
