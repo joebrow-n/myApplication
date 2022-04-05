@@ -15,7 +15,7 @@ public class MainPage extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.MainPage_layout, container, false );
+        View view = inflater.inflate(R.layout.mainpage_layout, container, false );
         Button btnToOpenSoloContent = (Button) view.findViewById(R.id.buttonToSolo);
         btnToOpenSoloContent.setOnClickListener(new View.OnClickListener() {
             @Override

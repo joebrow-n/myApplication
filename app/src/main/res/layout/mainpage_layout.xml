@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-114dp">
+
+    <View
+        android:id="@+id/top_banner"
+        android:layout_width="416dp"
+        android:layout_height="292dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/funthemebannerblank"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="519dp"
+        android:layout_height="318dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/newmeteor" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="@+id/top_banner"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07"
+        app:srcCompat="@drawable/exp_circleexpcircle" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="410dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/sen"
+        android:text="Complete today's tasks to\nprevent Doomsday"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_banner" />
+
+    <Button
+        android:id="@+id/buttonToSolo"
+        android:layout_width="156dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="78dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/sen_bold"
+        android:text="Solo Doomstop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_banner" />
+
+    <Button
+        android:id="@+id/buttonToSocial"
+        android:layout_width="156dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="38dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/sen_bold"
+        android:text="Social Doomstop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_banner" />
+
+    <Button
+        android:id="@+id/buttonToToDo"
+        android:layout_width="156dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="38dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/sen_bold"
+        android:text="To-doomstop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonToSocial" />
+
+    <Button
+        android:id="@+id/buttonToLong"
+        android:layout_width="156dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/sen_bold"
+        android:text="Long Doomstop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonToSolo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
