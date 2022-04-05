@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.example.myapplication.Fragment1;
+import com.example.myapplication.MainPage;
 import com.example.myapplication.Fragment2;
 import com.example.myapplication.Fragment3;
 import com.example.myapplication.R;
@@ -33,7 +33,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         Fragment fragment = null;
         switch (position){
             case 0:
-                fragment = new Fragment1();
+                fragment = new MainPage();
                 break;
             case 1:
                 fragment = new Fragment2();
