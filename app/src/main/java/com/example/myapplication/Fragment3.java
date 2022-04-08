@@ -37,11 +37,13 @@ public class Fragment3 extends Fragment {
 }
 
 //    public void logout_settingsBTN (View view) {
-//        FirebaseAuth.getInstance().signOut();
-////        startActivity(new Intent(getApplicationContext(),login.class));
-//        startActivity(new Intent(String.valueOf(login.class)));
-////        finish();
-//    }
+//       FirebaseAuth.getInstance().signOut();
+//////        startActivity(new Intent(getApplicationContext(),login.class));
+////        startActivity(new Intent(String.valueOf(login.class)));
+//        Intent intent = new Intent(this, register.class);
+//        startActivity(intent);
+
+//}
 
 
 

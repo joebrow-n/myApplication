@@ -55,6 +55,17 @@
             android:clickable="true"
             android:layout_gravity="top|end"
             android:src="@android:drawable/btn_star_big_on" />
+
+        <Button
+            android:id="@+id/generateLong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:gravity="bottom"
+            android:text="Generate Activity " />
+
+
+
     </androidx.cardview.widget.CardView>
 
 </FrameLayout>

@@ -22,15 +22,6 @@
         app:cardUseCompatPadding="true">
 
         <TextView
-            android:id="@+id/textView13"
-            android:layout_width="353dp"
-            android:layout_height="363dp"
-            android:fontFamily="@font/sen"
-            android:gravity="center"
-            android:text="TextView"
-            android:textSize="30dp" />
-
-        <TextView
             android:id="@+id/textView11"
             android:layout_width="match_parent"
             android:layout_height="506dp"
@@ -70,6 +61,14 @@
             android:clickable="true"
             android:layout_gravity="top|end"
             android:src="@android:drawable/btn_star_big_on" />
+
+        <Button
+            android:id="@+id/generateSolo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:gravity="bottom"
+            android:text="Generate Activity " />
 
     </androidx.cardview.widget.CardView>
 
