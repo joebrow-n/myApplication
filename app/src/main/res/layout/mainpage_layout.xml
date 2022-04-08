@@ -53,7 +53,6 @@
         android:layout_width="166dp"
         android:layout_height="165dp"
         android:layout_centerInParent="true"
-        android:background="@drawable/white_circle"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="@+id/circularProgressbar"
         app:layout_constraintEnd_toEndOf="@+id/circularProgressbar"
@@ -84,13 +83,15 @@
         android:layout_centerInParent="true"
         android:gravity="center"
         android:text="Today's EXP"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/circularProgressbar"
-        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintHorizontal_bias="0.592"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.13999999" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/progress_text"
@@ -99,7 +100,9 @@
         android:layout_centerInParent="true"
         android:gravity="center"
         android:text="85/170"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView13"
         app:layout_constraintEnd_toEndOf="@+id/circularProgressbar"
         app:layout_constraintHorizontal_bias="0.6"
