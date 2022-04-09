@@ -75,13 +75,14 @@
 
                 <TextView
                     android:id="@+id/textView1"
-                    android:layout_width="match_parent"
+                    android:layout_width="323dp"
                     android:layout_height="wrap_content"
-                    android:text="   Joe DoomStopped Today:"
-                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="95dp"
+                    android:text="   Cs37 DoomStopped Today:"
+                    android:textColor="@color/white"
                     android:textSize="16sp"
-                    android:layout_marginTop="-60dp"
-                    />
+                    android:gravity="center"/>
             </RelativeLayout>
             <RelativeLayout
                 android:layout_width="380dp"
@@ -111,12 +112,14 @@
 
                 <TextView
                     android:id="@+id/textView2"
-                    android:layout_width="match_parent"
+                    android:layout_width="323dp"
                     android:layout_height="wrap_content"
-                    android:text="   Joe DoomStopped Today:"
-                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"
+                    android:text="   Ritik DoomStopped Today:"
+                    android:textColor="@color/white"
                     android:textSize="16sp"
-                    android:layout_marginTop="-60dp"
+                    android:layout_marginTop="95dp"
+                    android:gravity="center"
                     />
             </RelativeLayout>
             <RelativeLayout
@@ -147,12 +150,14 @@
 
                 <TextView
                     android:id="@+id/textView3"
-                    android:layout_width="match_parent"
+                    android:layout_width="323dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
                     android:text="   Joe DoomStopped Today:"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="16sp"
-                    android:layout_marginTop="-60dp"
+                    android:layout_marginTop="95dp"
+                    android:gravity="center"
                     />
             </RelativeLayout>
             <RelativeLayout
@@ -183,48 +188,14 @@
 
                 <TextView
                     android:id="@+id/textView4"
-                    android:layout_width="match_parent"
+                    android:layout_width="323dp"
                     android:layout_height="wrap_content"
-                    android:text="   Joe DoomStopped Today:"
-                    android:textColor="@color/black"
-                    android:textSize="16sp"
-                    android:layout_marginTop="-60dp"
-                    />
-            </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="380dp"
-                android:layout_height="170dp"
-                >
-                <View
-                    android:id="@+id/rectangle_5"
-                    android:layout_width="320dp"
-                    android:layout_height="112.32dp"
-                    android:layout_alignParentLeft="true"
                     android:layout_marginLeft="25dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginTop="50dp"
-                    android:background="@drawable/feedrectangle"
-                    />
-
-                <View
-                    android:id="@+id/ellipse5"
-                    android:layout_width="65dp"
-                    android:layout_height="66dp"
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="148dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginTop="-dp"
-                    android:background="@drawable/feedicons"
-                    />
-
-                <TextView
-                    android:id="@+id/textView5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="   Joe DoomStopped Today:"
-                    android:textColor="@color/black"
+                    android:text="   Anshkirat DoomStopped Today:"
+                    android:textColor="@color/white"
                     android:textSize="16sp"
-                    android:layout_marginTop="-60dp"
+                    android:layout_marginTop="95dp"
+                    android:gravity="center"
                     />
             </RelativeLayout>
 
