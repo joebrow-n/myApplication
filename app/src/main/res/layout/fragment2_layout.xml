@@ -69,7 +69,7 @@
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="148dp"
                     android:layout_alignParentTop="true"
-                    android:layout_marginTop="-dp"
+                    android:layout_marginTop="10dp"
                     android:background="@drawable/feedicons"
                     />
 
@@ -79,7 +79,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="25dp"
                     android:layout_marginTop="95dp"
-                    android:text="   Cs37 DoomStopped Today:"
+                    android:text="   Cs37 DoomStopped Today"
                     android:textColor="@color/white"
                     android:textSize="16sp"
                     android:gravity="center"/>
@@ -106,7 +106,7 @@
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="148dp"
                     android:layout_alignParentTop="true"
-                    android:layout_marginTop="-dp"
+                    android:layout_marginTop="10dp"
                     android:background="@drawable/feedicons"
                     />
 
@@ -115,7 +115,7 @@
                     android:layout_width="323dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="25dp"
-                    android:text="   Ritik DoomStopped Today:"
+                    android:text="   Ritik DoomStopped Today"
                     android:textColor="@color/white"
                     android:textSize="16sp"
                     android:layout_marginTop="95dp"
@@ -144,7 +144,7 @@
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="148dp"
                     android:layout_alignParentTop="true"
-                    android:layout_marginTop="-dp"
+                    android:layout_marginTop="10dp"
                     android:background="@drawable/feedicons"
                     />
 
@@ -153,7 +153,7 @@
                     android:layout_width="323dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="25dp"
-                    android:text="   Joe DoomStopped Today:"
+                    android:text="   Joe DoomStopped Today"
                     android:textColor="@color/white"
                     android:textSize="16sp"
                     android:layout_marginTop="95dp"
@@ -182,7 +182,7 @@
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="148dp"
                     android:layout_alignParentTop="true"
-                    android:layout_marginTop="-dp"
+                    android:layout_marginTop="10dp"
                     android:background="@drawable/feedicons"
                     />
 
@@ -191,7 +191,7 @@
                     android:layout_width="323dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="25dp"
-                    android:text="   Anshkirat DoomStopped Today:"
+                    android:text="   Anshkirat DoomStopped Today"
                     android:textColor="@color/white"
                     android:textSize="16sp"
                     android:layout_marginTop="95dp"
