@@ -12,25 +12,29 @@
         <entry key="..\:/Users/brown/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_main.xml" value="0.2328125" />
         <entry key="..\:/Users/brown/AndroidStudioProjects/MyApplication/app/src/main/res/layout/solo_doomstop_layout.xml" value="0.2328125" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1855" />
-        <entry key="app/src/main/res/drawable/circular.xml" value="0.246" />
+        <entry key="app/src/main/res/drawable/circle_shape.xml" value="0.106" />
+        <entry key="app/src/main/res/drawable/circular.xml" value="0.1025" />
+        <entry key="app/src/main/res/drawable/circular_exp_bar.xml" value="0.106" />
         <entry key="app/src/main/res/drawable/custom_button.xml" value="0.2705" />
         <entry key="app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2445" />
         <entry key="app/src/main/res/drawable/ic_baseline_layers_24.xml" value="0.2445" />
         <entry key="app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.2705" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2705" />
         <entry key="app/src/main/res/drawable/top_banner.xml" value="0.2705" />
+        <entry key="app/src/main/res/layout/MainPage_layout.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.24189463019250254" />
         <entry key="app/src/main/res/layout/activity_login2.xml" value="0.24189463019250254" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.24189463019250254" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_register2.xml" value="0.24189463019250254" />
-        <entry key="app/src/main/res/layout/fragment1_layout.xml" value="0.24189463019250254" />
+        <entry key="app/src/main/res/layout/circular.xml" value="0.11170212765957446" />
+        <entry key="app/src/main/res/layout/fragment1_layout.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment2_layout.xml" value="0.24189463019250254" />
         <entry key="app/src/main/res/layout/fragment3_layout.xml" value="0.24189463019250254" />
         <entry key="app/src/main/res/layout/fragment_long_doomstop.xml" value="0.271286231884058" />
         <entry key="app/src/main/res/layout/fragment_main.xml" value="0.24189463019250254" />
         <entry key="app/src/main/res/layout/fragment_social_doomstop.xml" value="0.271286231884058" />
-        <entry key="app/src/main/res/layout/fragment_solo_doomstop.xml" value="0.13989637305699482" />
+        <entry key="app/src/main/res/layout/fragment_solo_doomstop.xml" value="0.21" />
         <entry key="app/src/main/res/layout/fragment_to_doomstop.xml" value="0.271286231884058" />
         <entry key="app/src/main/res/layout/mainpage_layout.xml" value="0.25" />
       </map>
