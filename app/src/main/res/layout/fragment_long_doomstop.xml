@@ -11,9 +11,9 @@
         android:layout_height="622dp"
         android:layout_gravity="bottom"
         android:layout_margin="10dp"
-        android:background="#BF5E5E"
-        android:backgroundTint="#C35353"
-        app:cardBackgroundColor="@color/white"
+        android:background="?attr/colorSecondaryVariant"
+        android:backgroundTint="?attr/colorSecondaryVariant"
+        app:cardBackgroundColor="?attr/colorOnPrimary"
         app:cardCornerRadius="20dp"
         app:cardElevation="10dp"
         app:cardMaxElevation="12dp"
@@ -25,6 +25,7 @@
             android:layout_width="356dp"
             android:layout_height="73dp"
             android:text="Return Home"
+            android:textColor="?attr/colorTertiary"
             />
 
         <TextView
@@ -33,6 +34,7 @@
             android:layout_gravity="bottom"
             android:text="Long DoomStop:"
             android:textSize="30dp"
+            android:textColor="?attr/colorTertiary"
             android:textAlignment="center"/>
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floatingActionButton2"
@@ -50,7 +52,7 @@
             android:inputType="textMultiLine"
             android:textAlignment="center"
             android:textAllCaps="true"
-            android:textColor="#FFFEFE"
+            android:textColor="?attr/colorTertiary"
             android:textStyle="bold" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -67,7 +69,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
             android:gravity="bottom"
-            android:text="Generate Activity " />
+            android:text="Generate Activity "
+            android:textColor="?attr/colorTertiary"/>
+
 
 
 

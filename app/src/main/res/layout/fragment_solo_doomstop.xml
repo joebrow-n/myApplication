@@ -12,9 +12,9 @@
         android:layout_height="622dp"
         android:layout_gravity="bottom"
         android:layout_margin="10dp"
-        android:background="#000000"
-        android:backgroundTint="#C35353"
-        app:cardBackgroundColor="@color/white"
+        android:background="?attr/colorOnTertiary"
+        android:backgroundTint="?attr/colorOnTertiary"
+        app:cardBackgroundColor="?attr/colorOnPrimary"
         app:cardCornerRadius="20dp"
         app:cardElevation="10dp"
         app:cardMaxElevation="12dp"
@@ -29,15 +29,17 @@
             android:fontFamily="@font/sen_bold"
             android:text="Solo Doomstop:"
             android:textAlignment="center"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:textColor="?attr/colorTertiary"/>
 
         <Button
             android:id="@+id/buttonSoloToHome"
             android:layout_width="351dp"
             android:layout_height="73dp"
-            android:background="#F1C14B"
-            android:backgroundTint="#F1C14B"
-            android:text="Return Home" />
+            android:background="?attr/colorPrimary"
+            android:backgroundTint="?attr/colorPrimary"
+            android:text="Return Home"
+            android:textColor="?attr/colorTertiary"/>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floatingActionButton"
@@ -55,7 +57,7 @@
             android:inputType="textMultiLine"
             android:textAlignment="center"
             android:textAllCaps="true"
-            android:textColor="#FDFCFC"
+            android:textColor="?attr/colorTertiary"
             android:textStyle="bold" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -72,7 +74,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
             android:gravity="bottom"
-            android:text="Generate Activity " />
+            android:text="Generate Activity "
+            android:textColor="?attr/colorTertiary"/>
 
     </androidx.cardview.widget.CardView>
 
