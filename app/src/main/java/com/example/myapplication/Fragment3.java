@@ -53,19 +53,21 @@ public class Fragment3 extends Fragment {
                 }
             }
         });
+
+        binding.logoutSettingsBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FirebaseAuth.getInstance().signOut();
+                Intent intent = new Intent(getActivity(), login.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
 
 }
 
-//    public void logout_settingsBTN (View view) {
-//       FirebaseAuth.getInstance().signOut();
-//////        startActivity(new Intent(getApplicationContext(),login.class));
-////        startActivity(new Intent(String.valueOf(login.class)));
-//        Intent intent = new Intent(this, register.class);
-//        startActivity(intent);
-
-//}
 
 
 

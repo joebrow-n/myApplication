@@ -7,10 +7,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#ECECECEC</color>
-    <color name="blue1">#0026FF</color>
-    <color name="blue2">#4D56A3</color>
     <color name="blue3">#05138B</color>
     <color name="blue4">#1F2EA2</color>
+    <color name="blue2">#4D56A3</color>
+    <color name="blue1">#0026FF</color>
     <color name="magenta1">#7D058B</color>
     <color name="magenta2">#9A4DA3</color>
     <color name="magenta3">#D900FF</color>
