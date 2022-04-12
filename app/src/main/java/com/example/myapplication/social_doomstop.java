@@ -17,12 +17,15 @@ import java.text.NumberFormat;
 public class social_doomstop extends Fragment {
 
     TextView textView;
+    TextView Activity;
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_social_doomstop, container, false );
 
         /* ------ The following is used to implement a timer - needs to be refined ------ */
         textView = (TextView) view.findViewById(R.id.textView50);
+        Button GenerateSocial = (Button) view.findViewById(R.id.generateSocial);
+        Activity = view.findViewById(R.id.editTextTextMultiLine3soc);
         new CountDownTimer(86400000, 1000) {
             public void onTick(long millisUntilFinished) {
                 // Used for formatting digit to be in 2 digits only
@@ -46,6 +49,13 @@ public class social_doomstop extends Fragment {
                 getFragmentManager().beginTransaction().setCustomAnimations(R.anim.enter_bottom_to_top, R.anim.exit_top_to_bottom).detach(social_doomstop.this).commit();
             }
         });
+
+        GenerateSocial.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Activity.setText("PLay Tennis with a partner");
+            }
+        }));
 
         return view;
     }

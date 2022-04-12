@@ -50,13 +50,18 @@
         android:layout_height="wrap_content"
         android:clickable="true"
         android:src="@android:drawable/ic_popup_sync" />
+
         <EditText
-            android:id="@+id/editTextTextMultiLine3"
+            android:id="@+id/editTextTextMultiLine3soc"
             android:layout_width="350dp"
             android:layout_height="75dp"
-            android:ems="10"
             android:layout_gravity="center"
-            android:inputType="textMultiLine" />
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floatingActionButton3"

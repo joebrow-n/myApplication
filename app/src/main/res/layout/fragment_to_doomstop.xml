@@ -34,6 +34,17 @@
             android:layout_width="356dp"
             android:layout_height="73dp"
             android:text="Return Home" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="269dp"
+            android:layout_height="344dp"
+            android:layout_gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#FBFBFB"
+            android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
 
 </FrameLayout>
