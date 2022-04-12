@@ -83,9 +83,13 @@
         android:layout_centerInParent="true"
         android:gravity="center"
         android:text="Today's EXP"
-        android:textColor="#FFFFFF"
+        android:textColor="?attr/colorTertiary"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/circularProgressbar"
         app:layout_constraintHorizontal_bias="0.592"
@@ -100,9 +104,13 @@
         android:layout_centerInParent="true"
         android:gravity="center"
         android:text="85/170"
-        android:textColor="#FFFFFF"
+        android:textColor="?attr/colorTertiary"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
         app:layout_constraintBottom_toTopOf="@+id/imageView13"
         app:layout_constraintEnd_toEndOf="@+id/circularProgressbar"
         app:layout_constraintHorizontal_bias="0.6"
@@ -119,7 +127,7 @@
         android:fontFamily="@font/sen_bold"
         android:text="Complete today's tasks to\nprevent Doomsday"
         android:textAlignment="textStart"
-        android:textColor="@color/black"
+        android:textColor="?attr/colorOnSecondary"
         android:textSize="25dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/top_banner" />
@@ -133,6 +141,7 @@
         android:background="@drawable/custom_button"
         android:fontFamily="@font/sen_bold"
         android:text="Solo Doomstop"
+        android:textColor="?attr/colorOnPrimary"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/top_banner" />
 
@@ -145,6 +154,7 @@
         android:background="@drawable/custom_button"
         android:fontFamily="@font/sen_bold"
         android:text="Social Doomstop"
+        android:textColor="?attr/colorOnPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/top_banner" />
 
@@ -157,6 +167,7 @@
         android:background="@drawable/custom_button"
         android:fontFamily="@font/sen_bold"
         android:text="To-doomstop"
+        android:textColor="?attr/colorOnPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonToSocial" />
 
@@ -169,6 +180,7 @@
         android:background="@drawable/custom_button"
         android:fontFamily="@font/sen_bold"
         android:text="Long Doomstop"
+        android:textColor="?attr/colorOnPrimary"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonToSolo" />
 

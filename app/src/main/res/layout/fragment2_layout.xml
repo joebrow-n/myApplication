@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="@color/white"
+    android:background="?attr/colorOnPrimary"
     android:orientation="vertical">
 
 
@@ -80,7 +80,7 @@
                     android:layout_marginLeft="25dp"
                     android:layout_marginTop="95dp"
                     android:text="   Cs37 DoomStopped Today"
-                    android:textColor="@color/white"
+                    android:textColor="?attr/colorOnPrimary"
                     android:textSize="16sp"
                     android:gravity="center"/>
             </RelativeLayout>
@@ -116,7 +116,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="25dp"
                     android:text="   Ritik DoomStopped Today"
-                    android:textColor="@color/white"
+                    android:textColor="?attr/colorOnPrimary"
                     android:textSize="16sp"
                     android:layout_marginTop="95dp"
                     android:gravity="center"
@@ -154,7 +154,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="25dp"
                     android:text="   Joe DoomStopped Today"
-                    android:textColor="@color/white"
+                    android:textColor="?attr/colorOnPrimary"
                     android:textSize="16sp"
                     android:layout_marginTop="95dp"
                     android:gravity="center"
@@ -192,7 +192,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="25dp"
                     android:text="   Anshkirat DoomStopped Today"
-                    android:textColor="@color/white"
+                    android:textColor="?attr/colorOnPrimary"
                     android:textSize="16sp"
                     android:layout_marginTop="95dp"
                     android:gravity="center"
@@ -224,7 +224,7 @@
                 android:layout_height="wrap_content"
                 android:text="\n Today's XP Leaders"
                 android:textAlignment="center"
-                android:textColor="@color/white"
+                android:textColor="?attr/colorTertiary"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -233,7 +233,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="\n User2"
-                android:textColor="@color/white"
+                android:textColor="?attr/colorSecondary"
                 android:textSize="16sp" />
 
             <TextView
@@ -241,7 +241,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="\n User3"
-                android:textColor="@color/white"
+                android:textColor="?attr/colorSecondaryVariant"
                 android:textSize="16sp" />
 
             <TextView
@@ -249,7 +249,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="\n User4"
-                android:textColor="@color/white"
+                android:textColor="?attr/colorPrimaryVariant"
                 android:textSize="16sp" />
 
             <TextView
@@ -257,7 +257,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="\n User5"
-                android:textColor="@color/white"
+                android:textColor="?attr/colorSecondary"
                 android:textSize="16sp" />
 
             <TextView
@@ -265,7 +265,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="\n User6"
-                android:textColor="@color/white"
+                android:textColor="?attr/colorSecondaryVariant"
                 android:textSize="16sp" />
 
             <TextView
@@ -273,7 +273,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="\n User5"
-                android:textColor="@color/white"
+                android:textColor="?attr/colorPrimaryVariant"
                 android:textSize="16sp" />
 
             <TextView
@@ -281,7 +281,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="\n User6"
-                android:textColor="@color/white"
+                android:textColor="?attr/colorSecondary"
                 android:textSize="16sp" />
 
 

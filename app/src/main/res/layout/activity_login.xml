@@ -21,6 +21,7 @@
             android:minHeight="?actionBarSize"
             android:padding="@dimen/appbar_padding"
             android:text="DoomStopper"
+            android:textColor="?attr/colorTertiary"
             android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
 
 <!--        <com.google.android.material.tabs.TabLayout-->
@@ -35,7 +36,7 @@
         android:layout_height="72dp"
         android:text="Login"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="?attr/colorTertiary"
         android:textSize="48sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -51,7 +52,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Username"
-        android:textColor="#FFFFFF"
+        android:textColor="?attr/colorSecondary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -66,7 +67,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Password"
-        android:textColor="#FFFFFF"
+        android:textColor="?attr/colorSecondary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
