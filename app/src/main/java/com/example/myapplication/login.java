@@ -63,6 +63,7 @@ public class login extends AppCompatActivity {
 
                     }else {
                         Toast.makeText(login.this, "ERROR", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(getApplicationContext(),MainActivity.class));
 
                     }
 
