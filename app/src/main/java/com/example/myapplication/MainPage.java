@@ -15,10 +15,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
-import androidx.viewpager.widget.ViewPager;
-
-import com.example.myapplication.ui.main.SectionsPagerAdapter;
-import com.google.android.material.tabs.TabLayout;
 
 public class MainPage extends Fragment {
 
@@ -71,7 +67,7 @@ public class MainPage extends Fragment {
         });
 
         Resources res = getResources();
-        Drawable drawable = res.getDrawable(R.drawable.circular);
+        Drawable drawable = res.getDrawable(R.drawable.circular_exp_bar);
         final ProgressBar mProgress = (ProgressBar) view.findViewById(R.id.circularProgressbar);
         mProgress.setProgress(1);   // Main Progress
         mProgress.setSecondaryProgress(100); // Secondary Progress
