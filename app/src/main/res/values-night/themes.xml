@@ -4,7 +4,7 @@
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/hue_grey2</item>
         <item name="colorPrimaryVariant">@color/de_ruby</item>
-        <item name="colorOnPrimary">@color/on_ruby</item>
+        <item name="colorOnPrimary">@color/med_grey</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/de_carrot</item>
         <item name="colorSecondaryVariant">@color/de_cedar</item>
@@ -13,7 +13,7 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
         <item name="colorTertiary">@color/de_orange</item>
-        <item name="colorOnTertiary">@color/grey</item>
+        <item name="colorOnTertiary">@color/med_grey</item>
         <item name="colorSurface">@color/hue_grey</item>
         <item name="android:colorBackground">@color/dark_grey</item>
         <item name="windowActionBar">false</item>
@@ -24,4 +24,12 @@
     <style name="fade_png">
         <item name= "android:background">@drawable/blank2</item>
     </style>
+
+    <style name="Theme.MyApplication.AppBarOverlay" parent="Theme.MyApplication">
+        <item name="colorPrimary">@color/de_ruby</item>
+        <item name="colorSurface">@color/de_ruby</item>
+        <item name="android:colorBackground">@color/de_ruby</item>
+        <item name="colorOnPrimary">@color/grey</item>
+    </style>
+
 </resources>
