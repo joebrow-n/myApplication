@@ -10,10 +10,13 @@
 
 
             <gradient
-                android:centerColor="#999999"
-                android:endColor="#999999"
-                android:startColor="#999999"
+                android:centerColor="@color/de_violet"
+                android:endColor="@color/de_violet"
+                android:startColor="@color/de_violet"
                 android:type="sweep" />
+
+
+
         </shape>
     </item>
 
@@ -38,12 +41,13 @@
                     android:toDegrees="360" />
 
                 <gradient
-                    android:centerColor="#800080"
-                    android:endColor="#800080"
-                    android:startColor="#800080"
+                    android:centerColor="@color/ruby"
+                    android:endColor="@color/orange"
+                    android:startColor="@color/on_ruby"
                     android:type="sweep" />
 
             </shape>
         </rotate>
     </item>
+
 </layer-list>
