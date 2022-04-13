@@ -37,6 +37,19 @@ public class login extends AppCompatActivity {
         mRegister2Btn = findViewById(R.id.register2_BTN);
         fAuth = FirebaseAuth.getInstance();
 
+        mUsername.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mUsername.setText("");
+            }
+        });
+        mPassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mPassword.setText("");
+            }
+        });
+
         mLogin2Btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

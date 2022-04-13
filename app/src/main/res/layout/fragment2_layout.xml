@@ -5,17 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="?attr/colorOnPrimary"
     android:orientation="vertical">
 
 
     <View
         android:id="@+id/top_banner"
-        android:layout_width="403dp"
-        android:layout_height="274dp"
+        android:layout_width="416dp"
+        android:layout_height="292dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:background="@drawable/funthemebannerblank"
+        style="@style/fade_png"
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -224,7 +223,7 @@
                 android:layout_height="wrap_content"
                 android:text="\n Today's XP Leaders"
                 android:textAlignment="center"
-                android:textColor="?attr/colorTertiary"
+                android:textColor="?attr/colorOnTertiary"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
