@@ -80,7 +80,7 @@
                     android:layout_marginTop="95dp"
                     android:text="   Cs37 DoomStopped Today"
                     android:textColor="?attr/colorOnPrimary"
-                    android:textSize="16sp"
+                    android:textSize="20sp"
                     android:gravity="center"/>
             </RelativeLayout>
             <RelativeLayout
@@ -116,7 +116,7 @@
                     android:layout_marginLeft="25dp"
                     android:text="   Ritik DoomStopped Today"
                     android:textColor="?attr/colorOnPrimary"
-                    android:textSize="16sp"
+                    android:textSize="20sp"
                     android:layout_marginTop="95dp"
                     android:gravity="center"
                     />
@@ -154,7 +154,7 @@
                     android:layout_marginLeft="25dp"
                     android:text="   Joe DoomStopped Today"
                     android:textColor="?attr/colorOnPrimary"
-                    android:textSize="16sp"
+                    android:textSize="20sp"
                     android:layout_marginTop="95dp"
                     android:gravity="center"
                     />
@@ -192,7 +192,7 @@
                     android:layout_marginLeft="25dp"
                     android:text="   Anshkirat DoomStopped Today"
                     android:textColor="?attr/colorOnPrimary"
-                    android:textSize="16sp"
+                    android:textSize="20sp"
                     android:layout_marginTop="95dp"
                     android:gravity="center"
                     />

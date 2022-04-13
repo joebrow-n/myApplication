@@ -148,6 +148,7 @@
         android:layout_marginTop="78dp"
         android:background="@drawable/custom_button"
         android:text="Solo Doomstop"
+        android:textStyle="bold"
         android:textColor="?attr/colorOnPrimary"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/top_banner" />
@@ -160,6 +161,7 @@
         android:layout_marginEnd="38dp"
         android:background="@drawable/custom_button"
         android:text="Social Doomstop"
+        android:textStyle="bold"
         android:textColor="?attr/colorOnPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/top_banner" />
@@ -172,6 +174,7 @@
         android:layout_marginEnd="38dp"
         android:background="@drawable/custom_button"
         android:text="To-doomstop"
+        android:textStyle="bold"
         android:textColor="?attr/colorOnPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonToSocial" />
@@ -184,6 +187,7 @@
         android:layout_marginTop="16dp"
         android:background="@drawable/custom_button"
         android:text="Long Doomstop"
+        android:textStyle="bold"
         android:textColor="?attr/colorOnPrimary"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonToSolo" />

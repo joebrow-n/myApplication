@@ -38,25 +38,6 @@ public class register extends AppCompatActivity {
         mLoginBtn = findViewById(R.id.loginBTN);
         fAuth = FirebaseAuth.getInstance();
 
-        mFullName.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mFullName.setText("");
-            }
-        });
-        mEmail.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mEmail.setText("");
-            }
-        });
-        mPassword.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mPassword.setText("");
-            }
-        });
-
         //to check if user is already logged in
         if (fAuth.getCurrentUser() != null) {
             startActivity(new Intent(getApplicationContext(), MainActivity.class));
