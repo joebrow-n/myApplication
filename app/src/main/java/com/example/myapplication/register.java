@@ -37,6 +37,7 @@ public class register extends AppCompatActivity {
         mRegisterBtn = findViewById(R.id.registerBTN);
         mLoginBtn = findViewById(R.id.loginBTN);
         fAuth = FirebaseAuth.getInstance();
+
         //to check if user is already logged in
         if (fAuth.getCurrentUser() != null) {
             startActivity(new Intent(getApplicationContext(), MainActivity.class));

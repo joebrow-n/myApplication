@@ -15,9 +15,9 @@
 
         <path
             android:pathData="M65 33C65 51.2254 50.4493 66 32.5 66C14.5507 66 0 51.2254 0 33C0 14.7746 14.5507 0 32.5 0C50.4493 0 65 14.7746 65 33Z"
-            android:strokeWidth="2"
+            android:strokeWidth="8"
             android:strokeColor="?attr/colorPrimary"
-            android:fillColor="?attr/colorSecondaryVariant"
+            android:fillColor="?attr/colorPrimaryVariant"
             />
 
     </group>

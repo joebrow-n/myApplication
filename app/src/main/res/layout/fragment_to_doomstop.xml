@@ -11,9 +11,9 @@
         android:layout_height="622dp"
         android:layout_gravity="bottom"
         android:layout_margin="10dp"
-        android:background="?attr/colorOnTertiary"
-        android:backgroundTint="?attr/colorOnTertiary"
-        app:cardBackgroundColor="?attr/colorOnPrimary"
+        android:background="?attr/colorSecondary"
+        android:backgroundTint="?attr/colorSecondary"
+        app:cardBackgroundColor="?attr/colorSecondary"
         app:cardCornerRadius="20dp"
         app:cardElevation="10dp"
         app:cardMaxElevation="12dp"
@@ -28,14 +28,14 @@
             android:text="To-Do List:"
             android:textSize="30dp"
             android:textAlignment="center"
-            android:textColor="?attr/colorTertiary"/>
+            android:textColor="@color/black"/>
 
         <Button
             android:id="@+id/buttonToDoToHome"
             android:layout_width="356dp"
             android:layout_height="73dp"
             android:text="Return Home"
-            android:textColor="?attr/colorTertiary"/>
+            android:textColor="?attr/colorOnPrimary"/>
 
         <TextView
             android:id="@+id/textView6"
@@ -45,7 +45,7 @@
             android:text="TextView"
             android:textAlignment="center"
             android:textAllCaps="true"
-            android:textColor="?attr/colorTertiary"
+            android:textColor="@color/black"
             android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
 

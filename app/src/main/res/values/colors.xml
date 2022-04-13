@@ -6,9 +6,12 @@
     <color name="purple_1000">#5900ff</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="grey">#ECECECEC</color>
-    <color name="blue3">#05138B</color>
-    <color name="blue4">#1F2EA2</color>
+    <color name="grey">#DCDCDC</color>
+    <color name="med_grey">#B3B3B3</color>
+    <color name="dark_grey">#121212</color>
+    <color name="hue_grey">#231a21</color>
+    <color name="hue_grey2">#4d3349</color>
+
     <color name="blue2">#4D56A3</color>
     <color name="blue1">#0026FF</color>
     <color name="magenta1">#7D058B</color>
@@ -16,5 +19,28 @@
     <color name="magenta3">#D900FF</color>
     <color name="doomstoptint">#C35353</color>
     <color name="doomstop">#BF5E5E</color>
+
+    /// Meteor + derived blue split compliment
+    <color name="blue_derived">#683edc</color>
+    <color name="gold_meteor">#f1c24b</color>
+    <color name="orange_meteor">#dc7b3e</color>
+    <color name="red_meteor">#e84552</color>
+
+    /// Purple to orange
+    <color name="violet">#932191</color>
+    <color name="ruby">#AD3D6F</color>
+    <color name="cedar">#C7594B</color>
+    <color name="carrot">#E17327</color>
+    <color name="orange">#FF9300</color>
+
+    <color name="de_violet">#783a77</color>
+    <color name="de_ruby">#9e4c71</color>
+    <color name="de_cedar">#b36a61</color>
+    <color name="de_carrot">#bc7b4e</color>
+    <color name="de_orange">#bf8a40</color>
+
+    <color name="on_ruby">#b2346c</color>
+
+
 
 </resources>

@@ -3,6 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/CEng/myApplication/app/src/main/res/drawable/circle_shape.xml" value="0.2605" />
+        <entry key="..\:/CEng/myApplication/app/src/main/res/drawable/circular_exp_bar.xml" value="0.2605" />
+        <entry key="..\:/CEng/myApplication/app/src/main/res/drawable/custom_button.xml" value="0.2605" />
+        <entry key="..\:/CEng/myApplication/app/src/main/res/drawable/feedicons.xml" value="0.2605" />
+        <entry key="..\:/CEng/myApplication/app/src/main/res/layout/activity_login.xml" value="0.22377768491433347" />
+        <entry key="..\:/CEng/myApplication/app/src/main/res/layout/activity_main.xml" value="0.22377768491433347" />
+        <entry key="..\:/CEng/myApplication/app/src/main/res/layout/activity_register.xml" value="0.22377768491433347" />
+        <entry key="..\:/CEng/myApplication/app/src/main/res/layout/fragment2_layout.xml" value="0.4252039891205802" />
+        <entry key="..\:/CEng/myApplication/app/src/main/res/layout/fragment3_layout.xml" value="0.45788798631893973" />
+        <entry key="..\:/CEng/myApplication/app/src/main/res/layout/fragment_long_doomstop.xml" value="0.22377768491433347" />
+        <entry key="..\:/CEng/myApplication/app/src/main/res/layout/fragment_social_doomstop.xml" value="0.2553606237816764" />
+        <entry key="..\:/CEng/myApplication/app/src/main/res/layout/fragment_solo_doomstop.xml" value="0.22377768491433347" />
+        <entry key="..\:/CEng/myApplication/app/src/main/res/layout/fragment_to_doomstop.xml" value="0.22377768491433347" />
+        <entry key="..\:/CEng/myApplication/app/src/main/res/layout/mainpage_layout.xml" value="0.4252039891205802" />
         <entry key="..\:/Users/brown/AndroidStudioProjects/MyApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.239" />
         <entry key="..\:/Users/brown/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.239" />
         <entry key="..\:/Users/brown/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.18857142857142858" />

@@ -12,9 +12,9 @@
         android:layout_height="622dp"
         android:layout_gravity="bottom"
         android:layout_margin="10dp"
-        android:background="?attr/colorOnTertiary"
-        android:backgroundTint="?attr/colorOnTertiary"
-        app:cardBackgroundColor="?attr/colorOnPrimary"
+        android:background="?attr/colorSecondary"
+        android:backgroundTint="?attr/colorSecondary"
+        app:cardBackgroundColor="?attr/colorSecondary"
         app:cardCornerRadius="20dp"
         app:cardElevation="10dp"
         app:cardMaxElevation="12dp"
@@ -26,11 +26,10 @@
             android:layout_width="match_parent"
             android:layout_height="506dp"
             android:layout_gravity="bottom"
-            android:fontFamily="@font/sen_bold"
             android:text="Solo Doomstop:"
             android:textAlignment="center"
             android:textSize="30dp"
-            android:textColor="?attr/colorTertiary"/>
+            android:textColor="@color/black"/>
 
         <Button
             android:id="@+id/buttonSoloToHome"
@@ -39,7 +38,7 @@
             android:background="?attr/colorPrimary"
             android:backgroundTint="?attr/colorPrimary"
             android:text="Return Home"
-            android:textColor="?attr/colorTertiary"/>
+            android:textColor="?attr/colorOnPrimary"/>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floatingActionButton"
@@ -57,7 +56,7 @@
             android:inputType="textMultiLine"
             android:textAlignment="center"
             android:textAllCaps="true"
-            android:textColor="?attr/colorTertiary"
+            android:textColor="@color/black"
             android:textStyle="bold" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -73,9 +72,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
-            android:gravity="bottom"
+            android:gravity="center"
             android:text="Generate Activity "
-            android:textColor="?attr/colorTertiary"/>
+            android:textColor="?attr/colorOnPrimary"/>
 
     </androidx.cardview.widget.CardView>
 
