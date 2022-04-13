@@ -30,7 +30,12 @@
         <item name= "android:background">@drawable/funthemebannerblank</item>
     </style>
 
-    <style name="Theme.MyApplication.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.MyApplication.AppBarOverlay" parent="Theme.MyApplication">
+        <item name="colorPrimary">@color/de_ruby</item>
+        <item name="colorSurface">@color/de_ruby</item>
+        <item name="android:colorBackground">@color/de_ruby</item>
+        <item name="colorOnPrimary">@color/grey</item>
+    </style>
 
     <style name="Theme.MyApplication.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
